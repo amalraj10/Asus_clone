@@ -1,0 +1,36 @@
+
+.abcd {
+    position: relative;
+
+    overflow: hidden;
+ 
+}
+.abcd img {
+    max-width: 100%;
+    transition: all 0.5s;
+    display: block;
+    /* width: 100%; */
+    height: auto;
+    transform: scale(1);
+   
+    background-size: cover;
+}
+
+.abcd:hover img {
+    transform: scale(1.1);
+}
+
+
+.coc img{
+    transform: scale(1);
+    transition: all 0.5s;
+
+}
+.coc{
+
+    position: relative;
+    overflow: hidden;
+}
+.coc:hover img {
+    transform: scale(1.1);
+}
